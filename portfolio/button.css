@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #0c71c9, #0acfa7);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0px;
+}
+.a1 button{
+    width: 400px;
+    height: 100px;
+    font-size: large;
+    background-color: rgb(249, 7, 7);
+    border-radius: 250px;
+    color: white;
+    margin-top: 75px;
+    margin-left: 600px;
+}
+
+.al button:hover {
+    background-color: #000000;
+}
+.a2 button{
+    width: 400px;
+    height: 100px;
+    font-size: large;
+    background-color: rgb(231, 13, 13);
+    border-radius: 250px;
+    color: white;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+.a2 button:hover {
+    background-color: #000000;
+}
+.a3 button{
+    width: 400px;
+    height: 100px;
+    font-size: large;
+    background-color: rgb(238, 7, 7);
+    border-radius: 250px;
+    color: white;
+    margin-top: 110px;
+    margin-left: 600px;
+}
+.a3 button:hover {
+    background-color: #000000;
+}

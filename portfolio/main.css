@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0px;
+}
+nav li{
+    display: inline-block;/* TEXT SHOULD BE ARRANGED IN THE HORIZONTAL */
+    position: relative;
+    width: 50%;
+    margin-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color:black
+}
+
+.nav-links{
+    position:absolute;
+    white-space: nowrap;
+    max-width: 1000px;/* MAX SCREEN WIDTH 1200 */
+    margin:0 auto /* TO ALIGN IN THE CENTER*/
+
+}
+    
+
+
+
+.main1{
+    width: 100vw;
+    height: 10vh;
+    background: linear-gradient(135deg, #0c71c9, #0acfa7);
+}
+.main11{
+    font-size: xx-large;
+    margin-left: 37%;
+}
+.main2{
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    background: linear-gradient(135deg, #3d86c5, #34d1b2);
+}
+.main21 h1{
+    margin: 0px;
+}
+.main21{
+    position: relative;
+    top: 100px;
+    font-size: x-large;
+    color: white;
+    left:150px ;
+}
+.main22{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+}
+.main22 button{
+    width: 100px;
+    height: 35px;
+    font-size: large;
+    background-color: black;
+    border-radius: 40px;
+    color: white;
+}
+#img2{
+    width: 500px;
+    height: 500px;
+    border-radius:250px;
+    right: 100px;
+    position: relative;
+}
+#img3{
+    width: 500px;
+    height: 500px;
+    border-radius:250px;
+    
+}
+.main24{
+    position: absolute;
+    top: 45px;
+    right:220px;
+    display: none;
+}
+.main23{
+    position: absolute;
+    top: 45px;
+    left: 950px;
+}
+
+
+.main3{
+    width: 100vw;
+    height: 10vh;
+    background: linear-gradient(135deg, #34d9f2, #6480f9);
+}

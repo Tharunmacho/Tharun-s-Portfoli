@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <!--Navigation-->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Tharun's Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#my acheivement">MY Achievement</a></li>
+                <li><a href="#contactme">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+        <div class="main1">
+            <div class="main11">
+            </div>
+        </div>
+        <div class="main2">
+            <div class="main21">
+                <h1 id="h1">Hi there,</h1><br>
+                <h1 id="h2">This is <span style="color: black;">Tharun</span></h1><br>
+                <h1 id="h3">A creative Developer</h1><br>
+                <h1 id="h3">Making Innovation things</h1><br>
+                                            
+            </div>
+            <div class="main22">
+                <button id="b1" onclick="update()"><b>About</b></button>
+
+            </div>
+            <div class="main23" id="visible">
+                <img src="tharun1.jpg" alt="my image" id="img2">
+            </div>
+            <div class="main24" id="hidden">
+                <img src="images/saveetha.jpg" alt="replace image" id="img3">
+            </div>
+        </div>
+        <div class="main3"></div>
+        <script>
+            function update(){
+                document.getElementById("h1").innerHTML="I am 18 years old"
+                document.getElementById("h2").innerHTML="Studying in SSC"
+                document.getElementById("h3").innerHTML="1st year"
+                document.getElementById("visible").style.display="none"
+                document.getElementById("hidden").style.display="block"
+
+            }
+        </script>
+        
+        
+
+    </body>
+</html>
